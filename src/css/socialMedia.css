@@ -1,0 +1,142 @@
+/* CSS by Alex Cassell
+http://alexcassell.com
+All Rights Reserved */
+
+@media only screen 
+and (min-width : 1000px) {
+    .socialMedia{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        left: 1%;
+        top: 35%;
+        z-index: 15;
+    }
+
+    .socialMedia__icons{
+        cursor: grab;
+        height:100px;
+        width: 100px;
+        padding-top: 15px;
+        background: none;
+        outline: none;
+        border:none;
+        position: relative;
+        -webkit-animation: easeIn 2s;
+        animation: easeIn 2s;
+        -webkit-transform: scale(0,0); 
+        transform: scale(0,0);
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards; 
+    }
+
+    .socialMedia__icons__github{
+        background-image: url("../images/socialMedia/github.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .socialMedia__icons__linkedIn{
+        margin-top: 15px;
+        background-image: url("../images/socialMedia/linkedIn.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .socialMedia__icons__facebook{
+        margin-top: 15px;
+        background-image: url("../images/socialMedia/facebook.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+}
+
+@media only screen 
+and (max-width : 999px) {
+    .socialMedia{
+        /* position: relative; */
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+        margin-top: 200px;
+        z-index: 15;
+    }
+
+    .socialMedia__icons{
+        cursor: grab;
+        align-content: center;
+        height:75px;
+        width: 75px;
+        background: none;
+        outline: none;
+        border:none;
+        position: relative;
+        -webkit-animation: easeIn 2s;
+        animation: easeIn 2s;
+        -webkit-transform: scale(0,0); 
+        transform: scale(0,0);
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards; 
+    }
+
+    .socialMedia__icons__github{
+        background-image: url("../images/socialMedia/github.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .socialMedia__icons__linkedIn{
+        margin-left: 15px;
+        background-image: url("../images/socialMedia/linkedIn.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .socialMedia__icons__facebook{
+        margin-left: 15px;
+        background-image: url("../images/socialMedia/facebook.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+}
+
+/* Animations */
+
+@-webkit-keyframes easeIn {
+    100% {
+        -webkit-transform: scale(1,1);
+    }
+}
+
+@keyframes easeIn {
+    100% {
+        transform: scale(1,1);
+    }
+}

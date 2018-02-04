@@ -1,0 +1,51 @@
+@media only screen 
+and (min-width : 1000px) {
+    .contact {
+        position: relative;
+        top: 200px;
+        width: 50%;
+        padding: 10px;
+        /* height: 125px; */
+        text-align: center;
+        border: solid 3px #dee447;
+        background-color: #6b8337;
+        border-radius: 25px;
+        color: white;
+        margin: auto;
+        font-size: 2em;;
+    }
+}
+
+@media only screen 
+and (max-width : 999px) {
+    .contact {
+        position: relative;
+        top: 50px;
+        width: 90%;
+        padding: 10px;
+        /* height: 125px; */
+        text-align: center;
+        border: solid 3px #dee447;
+        background-color: #6b8337;
+        border-radius: 25px;
+        color: white;
+        margin: auto;
+        font-size: 1em;;
+    }
+}
+
+
+.contact a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.contact a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: white;
+}

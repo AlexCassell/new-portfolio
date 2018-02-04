@@ -1,0 +1,218 @@
+/* CSS by Alex Cassell
+http://alexcassell.com
+All Rights Reserved */
+
+@media only screen 
+and (min-width : 1000px) {
+    .skills{
+        position: relative;
+        align-self: center;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 700px;
+        padding: 15px;
+        border: solid 3px #dee447;
+        background-color: #6b8337;
+        border-radius: 25px;
+    }
+
+    .skills__icons{
+        cursor: grab;
+        height:100px;
+        width: 100px;
+        padding-top: 15px;
+        background: none;
+        outline: none;
+        border:none;
+        position: relative;
+        -webkit-animation: easeIn 2s;
+        animation: easeIn 2s;
+        -webkit-transform: scale(0,0); 
+        transform: scale(0,0);
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards; 
+    }
+
+    .skills__icons__html{
+        background-image: url("../images/about/skills/html5.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .skills__icons__css{
+        margin-left: 15px;
+        background-image: url("../images/about/skills/css.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .skills__icons__javascript{
+        margin-left: 15px;
+        background-image: url("../images/about/skills/javascript.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .skills__icons__node{
+        margin-left: 15px;
+        background-image: url("../images/about/skills/node.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .skills__icons__react{
+        margin-left: 15px;
+        background-image: url("../images/about/skills/react.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .skills__icons__unity{
+        margin-left: 15px;
+        background-image: url("../images/about/skills/unity.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+}
+
+@media only screen 
+and (max-width : 999px) {
+    .skills{
+        position: relative;
+        align-self: center;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: solid 3px #dee447;
+        background-color: #6b8337;
+        border-radius: 25px;
+    }
+
+    .skills__icons{
+        cursor: grab;
+        height:100px;
+        width: 100px;
+        padding-top: 15px;
+        background: none;
+        outline: none;
+        border:none;
+        position: relative;
+        -webkit-animation: easeIn 2s;
+        animation: easeIn 2s;
+        -webkit-transform: scale(0,0); 
+        transform: scale(0,0);
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards; 
+    }
+
+    .skills__icons__html{
+        background-image: url("../images/about/skills/html5.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .skills__icons__css{
+        margin-left: 15px;
+        background-image: url("../images/about/skills/css.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .skills__icons__javascript{
+        margin-left: 15px;
+        background-image: url("../images/about/skills/javascript.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .skills__icons__node{
+        margin-left: 15px;
+        background-image: url("../images/about/skills/node.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .skills__icons__react{
+        margin-left: 15px;
+        background-image: url("../images/about/skills/react.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .skills__icons__unity{
+        margin-left: 15px;
+        background-image: url("../images/about/skills/unity.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+}
+
+
+
+@-webkit-keyframes easeIn {
+    100% {
+        -webkit-transform: scale(1,1);
+    }
+}
+
+@keyframes easeIn {
+    100% {
+        transform: scale(1,1);
+    }
+}
