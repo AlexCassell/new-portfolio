@@ -34,29 +34,57 @@ class About extends Component {
   }
 
   _onMouseMove(e) {
-    if(e.clientX < w && e.clientY < h && position !== 1){
-      // top left
-      position = 1;
-      setTimeout( () => this.defaultPortrait(this) , 3000); //reset after time
-      this.setState({head: <div className='about__portrait__topLeft' />}); 
-    }
-    else if(e.clientX < w && e.clientY > h && position !== 2){
-      // bottom left
-      position = 2;
-      setTimeout( () => this.defaultPortrait(this) , 3000); //reset after time
-      this.setState({head: <div className='about__portrait__bottomLeft' />});
-    }
-    else if(e.clientX > w && e.clientY < h && position !== 3){
-      // top right
-      position = 3;
-      setTimeout( () => this.defaultPortrait(this) , 3000); //reset after time
-      this.setState({head: <div className='about__portrait__topRight' />});
-    }
-    else if(e.clientX > w && e.clientY > h && position !== 4){
-      // bottom right
-      position = 4;
-      setTimeout( () => this.defaultPortrait(this) , 3000); //reset after time
-      this.setState({head: <div className='about__portrait__bottomRight' />});
+    if(window.innerWidth > 999){
+      if(window.innerWidth === 1360 || window.innerWidth === 1366){
+        if (e.clientX < w - 100 && e.clientY < h && position !== 1){
+          // top left
+          position = 1;
+          setTimeout( () => this.defaultPortrait(this) , 3000); //reset after time
+          this.setState({head: <div className='about__portrait__topLeft' />}); 
+        }
+        else if(e.clientX < w - 100 && e.clientY > h && position !== 2){
+          // bottom left
+          position = 2;
+          setTimeout( () => this.defaultPortrait(this) , 3000); //reset after time
+          this.setState({head: <div className='about__portrait__bottomLeft' />});
+        }
+        else if(e.clientX > w - 100 && e.clientY < h && position !== 3){
+          // top right
+          position = 3;
+          setTimeout( () => this.defaultPortrait(this) , 3000); //reset after time
+          this.setState({head: <div className='about__portrait__topRight' />});
+        }
+        else if(e.clientX > w - 100 && e.clientY > h && position !== 4){
+          // bottom right
+          position = 4;
+          setTimeout( () => this.defaultPortrait(this) , 3000); //reset after time
+          this.setState({head: <div className='about__portrait__bottomRight' />});
+        }
+      }
+      else if(e.clientX < w && e.clientY < h && position !== 1){
+        // top left
+        position = 1;
+        setTimeout( () => this.defaultPortrait(this) , 3000); //reset after time
+        this.setState({head: <div className='about__portrait__topLeft' />}); 
+      }
+      else if(e.clientX < w && e.clientY > h && position !== 2){
+        // bottom left
+        position = 2;
+        setTimeout( () => this.defaultPortrait(this) , 3000); //reset after time
+        this.setState({head: <div className='about__portrait__bottomLeft' />});
+      }
+      else if(e.clientX > w && e.clientY < h && position !== 3){
+        // top right
+        position = 3;
+        setTimeout( () => this.defaultPortrait(this) , 3000); //reset after time
+        this.setState({head: <div className='about__portrait__topRight' />});
+      }
+      else if(e.clientX > w && e.clientY > h && position !== 4){
+        // bottom right
+        position = 4;
+        setTimeout( () => this.defaultPortrait(this) , 3000); //reset after time
+        this.setState({head: <div className='about__portrait__bottomRight' />});
+      }
     }
   }
 
@@ -68,6 +96,11 @@ class About extends Component {
   render() {
     return (
       <div className="about" onMouseMove={this._onMouseMove.bind(this)}>
+        <div className="preload-00"/>
+        <div className="preload-01"/>
+        <div className="preload-02"/>
+        <div className="preload-03"/>
+        <div className="preload-04"/>
           <div className="about__contentWrapper">
             {this.state.head}
             <div className="about__mainContent">
