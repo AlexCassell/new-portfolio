@@ -29,6 +29,8 @@ class About extends Component {
 
   componentWillMount(){
     this.defaultPortrait();
+    console.clear();
+    console.log("%c Thank you for your interest in this portfolio, if you would like to see the code you can visit: https://github.com/AlexCassell/new-portfolio", 'background: black; color: white');
   }
 
   _onMouseMove(e) {
