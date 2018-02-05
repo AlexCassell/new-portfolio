@@ -6,5 +6,5 @@ Technologies Used:
 * React.Js
 * Router
 * JavaScript
-* CSS
+* CSS (FlexBox)
 * HTML
