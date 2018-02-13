@@ -293,6 +293,46 @@ and (max-width : 999px) {
     background-position: 50% 50%;
 }
 
+.satelliteRescueImageOne{
+    background-image: url("../images/projects/satelliteRescue/screenOne.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.satelliteRescueImageTwo{
+    background-image: url("../images/projects/satelliteRescue/screenTwo.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.askTheOtherSideImageOne{
+    background-image: url("../images/projects/askTheOtherSide/screenOne.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.askTheOtherSideImageTwo{
+    background-image: url("../images/projects/askTheOtherSide/screenTwo.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
 .trueColorGraphicsImageOne{
     background-image: url("../images/projects/trueColorGraphics/screenOne.png");
     background-repeat: no-repeat;

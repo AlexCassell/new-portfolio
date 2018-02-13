@@ -58,36 +58,58 @@ const Projects  = () => {
                     </div>
                 </div>
                 <div className="project__item">
-                    <div className="projects__info">
-                    <div className="projects__imageWrapper">
+                <div className="projects__imageWrapper">
                         <div className="projects__images ticTacToeImageOne" />
                         <div className="projects__images ticTacToeImageTwo" />
                     </div>
                     <div className="projects__info">
-                        I built this game to see how quickly Tic Tac Toe could be built.<br />
-                        It was built using <span className="about__highlighted">React</span>, <span className="about__highlighted">FireBase</span>, <span className="about__highlighted">JavaScript</span>, <span className="about__highlighted">HTML</span> and <span className="about__highlighted">CSS</span>.                     
+                    I built this game to see how quickly Tic Tac Toe could be built.<br />
+                        It was built using <span className="about__highlighted">React</span>, <span className="about__highlighted">FireBase</span>, <span className="about__highlighted">JavaScript</span>, <span className="about__highlighted">HTML</span> and <span className="about__highlighted">CSS</span>.
                         <div className="project__linksWrapper">
                             View Project:
                             <span className="projects__links"><i className="fab fa-github"></i> <a href="https://github.com/AlexCassell/tictactoe" target="_blank" rel="noopener noreferrer">Repository</a></span>
                             <span className="projects__links"><i className="fab fa-chrome"></i> <a href="https://www.tictactoe.alexcassell.com/" target="_blank" rel="noopener noreferrer">Webpage</a></span>
                         </div>
                     </div>
+                </div>
+                <div className="project__item">
+                <div className="projects__imageWrapper">
+                        <div className="projects__images satelliteRescueImageOne" />
+                        <div className="projects__images satelliteRescueImageTwo" />
+                    </div>
+                    <div className="projects__info">
+                    Satellite Rescue is an <span className="about__highlighted">Android</span> game made with <span className="about__highlighted">Unity</span>.  It has not been updated in about 3 years but still works.
+                        <div className="project__linksWrapper">
+                            View Project:
+                            <span className="projects__links"><i className="fab fa-google-play"></i> <a href="https://play.google.com/store/apps/details?id=of.nature.games.satellite.rescue" target="_blank" rel="noopener noreferrer">Play Store</a></span>
+                        </div>
                     </div>
                 </div>
                 <div className="project__item">
+                <div className="projects__imageWrapper">
+                        <div className="projects__images askTheOtherSideImageOne" />
+                        <div className="projects__images askTheOtherSideImageTwo" />
+                    </div>
                     <div className="projects__info">
-                    <div className="projects__imageWrapper">
+                    Ask the Other Side is an <span className="about__highlighted">Android</span> game made with <span className="about__highlighted">Unity</span>.  It has<br /> not been updated in about 3 years but still works. It was meant as a joke/game but some people found it to be offensive.
+                        <div className="project__linksWrapper">
+                            View Project:
+                            <span className="projects__links"><i className="fab fa-google-play"></i> <a href="https://play.google.com/store/apps/details?id=of.nature.games.satellite.rescuehttps://play.google.com/store/apps/details?id=com.ofnature.games" target="_blank" rel="noopener noreferrer">Play Store</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div className="project__item">
+                <div className="projects__imageWrapper">
                         <div className="projects__images trueColorGraphicsImageOne" />
                         <div className="projects__images trueColorGraphicsImageTwo" />
                     </div>
                     <div className="projects__info">
-                        TrueColorGraphics.org is a  <span className="about__highlighted">WordPress</span> I maintain.  I originally<br />built a modern theme for
-                        this site but the customer did not think his customers could figure it out.                      
+                    TrueColorGraphics.org is a  <span className="about__highlighted">WordPress</span> I maintain.  I originally<br />built a modern theme for
+                        this site but the customer did not think his customers could figure it out.
                         <div className="project__linksWrapper">
                             View Project:
                             <span className="projects__links"><i className="fab fa-chrome"></i> <a href="http://www.truecolorgraphics.org/" target="_blank" rel="noopener noreferrer">Website</a></span>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
