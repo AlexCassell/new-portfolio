@@ -273,6 +273,26 @@ and (max-width : 999px) {
     background-position: 50% 50%;
 }
 
+.ticTacToeImageOne{
+    background-image: url("../images/projects/ticTacToe/screenOne.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.ticTacToeImageTwo{
+    background-image: url("../images/projects/ticTacToe/screenTwo.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
 .trueColorGraphicsImageOne{
     background-image: url("../images/projects/trueColorGraphics/screenOne.png");
     background-repeat: no-repeat;

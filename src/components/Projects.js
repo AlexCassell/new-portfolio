@@ -60,6 +60,23 @@ const Projects  = () => {
                 <div className="project__item">
                     <div className="projects__info">
                     <div className="projects__imageWrapper">
+                        <div className="projects__images ticTacToeImageOne" />
+                        <div className="projects__images ticTacToeImageTwo" />
+                    </div>
+                    <div className="projects__info">
+                        I built this game to see how quickly Tic Tac Toe could be built.<br />
+                        It was built using <span className="about__highlighted">React</span>, <span className="about__highlighted">FireBase</span>, <span className="about__highlighted">JavaScript</span>, <span className="about__highlighted">HTML</span> and <span className="about__highlighted">CSS</span>.                     
+                        <div className="project__linksWrapper">
+                            View Project:
+                            <span className="projects__links"><i className="fab fa-github"></i> <a href="https://github.com/AlexCassell/tictactoe" target="_blank" rel="noopener noreferrer">Repository</a></span>
+                            <span className="projects__links"><i className="fab fa-chrome"></i> <a href="https://www.tictactoe.alexcassell.com/" target="_blank" rel="noopener noreferrer">Webpage</a></span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div className="project__item">
+                    <div className="projects__info">
+                    <div className="projects__imageWrapper">
                         <div className="projects__images trueColorGraphicsImageOne" />
                         <div className="projects__images trueColorGraphicsImageTwo" />
                     </div>
