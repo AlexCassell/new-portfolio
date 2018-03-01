@@ -233,6 +233,26 @@ and (max-width : 999px) {
     background-position: 50% 50%;
 }
 
+.cyclic-cellular-automatonImageOne{
+    background-image: url("../images/projects/cyclic-cellular-automaton/1.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.cyclic-cellular-automatonImageTwo{
+    background-image: url("../images/projects/cyclic-cellular-automaton/2.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
 .storyTimeImageOne{
     background-image: url("../images/projects/storyTime/createScreen.png");
     background-repeat: no-repeat;

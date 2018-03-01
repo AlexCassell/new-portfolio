@@ -4,7 +4,7 @@ import Skills from '../components/Skills';
 
 
 let paragraphOne = <div>My name is Alex Cassell (surprise!)  I am a combat veteran and I have been making 
-websites since 1997.  Coding is by far my favourite activity; besides playing with my kids! 
+websites since 1997.  Coding is by far my favorite activity; besides playing with my kids! 
 I mostly enjoy building websites and games with <span className="about__highlighted">HTML5</span> (ie <span className="about__highlighted">React</span>, <span className="about__highlighted">JavaScript</span>, <span className="about__highlighted">Node</span>, <span className="about__highlighted">CSS3</span> and <span className="about__highlighted">HTML</span>).  I have
 over 10 years of experience with popular CMS software such as <span className="about__highlighted">WordPress</span> and <span className="about__highlighted">Drupal</span>.</div>
 

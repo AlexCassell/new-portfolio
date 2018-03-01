@@ -29,6 +29,19 @@ const Projects  = () => {
                 </div>
                 <div className="project__item">
                 <div className="projects__imageWrapper">
+                        <div className="projects__images cyclic-cellular-automatonImageOne" />
+                        <div className="projects__images cyclic-cellular-automatonImageTwo" />
+                    </div>
+                    <div className="projects__info">
+                    A basic Cyclic Cellular Automaton that checks its neighbors in all directions; with toggle buttons to change rules on the fly. Created with<span className="about__highlighted">JavaScript</span>, <span className="about__highlighted">React</span>, <span className="about__highlighted">CSS</span>, and <span className="about__highlighted">HTML</span>.<br/>
+                        <div className="project__linksWrapper">
+                            View Project:
+                            <span className="projects__links"><i className="fab fa-chrome"></i> <a href="http://www.cyclic-cellular-automaton.alexcassell.com/" target="_blank" rel="noopener noreferrer">Webpage</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div className="project__item">
+                <div className="projects__imageWrapper">
                         <div className="projects__images storyTimeImageOne" />
                         <div className="projects__images storyTimeImageTwo" />
                     </div>
