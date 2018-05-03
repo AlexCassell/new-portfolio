@@ -7,6 +7,12 @@ body {
     background-attachment: fixed;
 }
 
+.projects{
+    width:100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
 /* Desktops and Some tablets */
 
 @media only screen 
