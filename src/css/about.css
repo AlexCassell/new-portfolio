@@ -3,168 +3,175 @@ http://alexcassell.com
 All Rights Reserved */
 
 body {
-    background-image: url("../images/about/background.png");
-    background-attachment: fixed;
+  background-image: url("../images/about/background.png");
+  background-attachment: fixed;
 }
 
 /* Desktops and Some tablets */
 
-@media only screen 
-and (min-width : 1000px) {
+@media only screen and (min-width: 1000px) {
+  /* cache face images */
+  .preload-00 {
+    background: url("../images/about/portrait.png") no-repeat -9999px -9999px;
+  }
+  .preload-01 {
+    background: url("../images/about/portraitTopLeft.png") no-repeat -9999px -9999px;
+  }
+  .preload-02 {
+    background: url("../images/about/portraitTopRight.png") no-repeat -9999px -9999px;
+  }
+  .preload-03 {
+    background: url("../images/about/portraitBottomLeft.png") no-repeat -9999px -9999px;
+  }
+  .preload-04 {
+    background: url("../images/about/portraitBottomRight.png") no-repeat -9999px -9999px;
+  }
 
-    /* cache face images */    
-    .preload-00 { background: url("../images/about/portrait.png") no-repeat -9999px -9999px; }
-    .preload-01 { background: url("../images/about/portraitTopLeft.png") no-repeat -9999px -9999px; }
-    .preload-02 { background: url("../images/about/portraitTopRight.png") no-repeat -9999px -9999px; }
-    .preload-03 { background: url("../images/about/portraitBottomLeft.png") no-repeat -9999px -9999px; }
-    .preload-04 { background: url("../images/about/portraitBottomRight.png") no-repeat -9999px -9999px; }
-    
-    .about__contentWrapper{
-        margin-top: 85px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: space-around;
-    }
+  .about__contentWrapper {
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+  }
 
-    .about__mainContent {
-        align-self: center;
-        height: auto;
-        width: 50%;
-        color: white;
-        font-size: 3vh;
-        text-align: left;
-        border: solid 3px #dee447;
-        background-color: #6b8337;
-        border-radius: 25px;
-    }
+  .about__mainContent {
+    align-self: center;
+    height: auto;
+    width: 50%;
+    color: white;
+    font-size: 3vh;
+    text-align: left;
+    border: solid 3px #dee447;
+    background-color: #6b8337;
+    border-radius: 25px;
+  }
 
-    /* default */
-    .about__portrait{
-        align-self: center;
-        height: 200px;
-        width: 142px;
-        background-image: url("../images/about/portrait.png");
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position: 50% 50%;
-    }
+  /* default */
+  .about__portrait {
+    align-self: center;
+    height: 200px;
+    width: 142px;
+    background-image: url("../images/about/portrait.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
 
-    .about__portrait__topLeft{
-        align-self: center;
-        height: 200px;
-        width: 217px;
-        background-image: url("../images/about/portraitTopLeft.png");
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position: 50% 50%;
-    }
+  .about__portrait__topLeft {
+    align-self: center;
+    height: 200px;
+    width: 217px;
+    background-image: url("../images/about/portraitTopLeft.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
 
-    .about__portrait__bottomLeft{
-        align-self: center;
-        height: 200px;
-        width: 204px;
-        background-image: url("../images/about/portraitBottomLeft.png");
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position: 50% 50%;
-    }
+  .about__portrait__bottomLeft {
+    align-self: center;
+    height: 200px;
+    width: 204px;
+    background-image: url("../images/about/portraitBottomLeft.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
 
-    .about__portrait__topRight{
-        align-self: center;
-        height: 200px;
-        width: 217px;
-        background-image: url("../images/about/portraitTopRight.png");
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position: 50% 50%;
-    }
+  .about__portrait__topRight {
+    align-self: center;
+    height: 200px;
+    width: 217px;
+    background-image: url("../images/about/portraitTopRight.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
 
-    .about__portrait__bottomRight{
-        align-self: center;
-        height: 200px;
-        width: 204px;
-        background-image: url("../images/about/portraitBottomRight.png");
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position: 50% 50%;
-    }
+  .about__portrait__bottomRight {
+    align-self: center;
+    height: 200px;
+    width: 204px;
+    background-image: url("../images/about/portraitBottomRight.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
 
-    .about__paragraph{
-        text-indent: 50px;
-        padding: 15px;
-    }
+  .about__paragraph {
+    text-indent: 50px;
+    padding: 15px;
+  }
 
-    .about__highlighted{
-        color:red;
-        background-color: rgba(36, 31, 31, 0.822);
-        cursor: crosshair;
-    }
+  .about__highlighted {
+    color: red;
+    background-color: rgba(36, 31, 31, 0.822);
+    cursor: crosshair;
+  }
 }
 
 /* Everything else */
 
-@media only screen 
-and (max-width : 999px) {
-    .about__contentWrapper{
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: space-around;
-    }
+@media only screen and (max-width: 999px) {
+  .about__contentWrapper {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+  }
 
-    .about__mainContent {
-        align-self: center;
-        margin-top: -35px;
-        height: auto;
-        width: 95%;
-        color: white;
-        font-size: 3vh;
-        text-align: left;
-        border: solid 3px #dee447;
-        background-color: #6b8337;
-        border-radius: 25px;
-    }
+  .about__mainContent {
+    align-self: center;
+    margin-top: -35px;
+    height: auto;
+    width: 95%;
+    color: white;
+    font-size: 3vh;
+    text-align: left;
+    border: solid 3px #dee447;
+    background-color: #6b8337;
+    border-radius: 25px;
+  }
 
-    .about__portrait{
-        position: absolute;
-        top: 90px;
-        align-self: center;
-        height: 100px;
-        width: 71px;
-        background-image: url("../images/about/portrait.png");
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position: 50% 50%;
-    }
+  .about__portrait {
+    position: absolute;
+    top: 90px;
+    align-self: center;
+    height: 100px;
+    width: 71px;
+    background-image: url("../images/about/portrait.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
 
-    .about__paragraph{
-        text-indent: 50px;
-        padding: 15px;
-    }
+  .about__paragraph {
+    text-indent: 50px;
+    padding: 15px;
+  }
 
-    .about__highlighted{
-        color:red;
-        background-color: rgba(36, 31, 31, 0.822);
-        cursor: crosshair;
-    }
+  .about__highlighted {
+    color: red;
+    background-color: rgba(36, 31, 31, 0.822);
+    cursor: crosshair;
+  }
 }

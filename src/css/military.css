@@ -1,67 +1,64 @@
-.military{
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 900px;
-    right: 1%;
-    bottom: 150px;
-    z-index: 15;
+.military {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 900px;
+  right: 1%;
+  bottom: 150px;
+  z-index: 15;
 }
 
-.military__icons{
-    cursor: grab;
-    padding-top: 15px;
-    background: none;
-    outline: none;
-    border:none;
-    position: relative;
-    -webkit-animation: easeIn 2s;
-    animation: easeIn 2s;
-    -webkit-transform: scale(0,0); 
-    transform: scale(0,0);
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards; 
+.military__icons {
+  cursor: grab;
+  padding-top: 15px;
+  background: none;
+  outline: none;
+  border: none;
+  position: relative;
+  -webkit-animation: easeIn 2s;
+  animation: easeIn 2s;
+  -webkit-transform: scale(0, 0);
+  transform: scale(0, 0);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
-.military__icons__unit{
-    background-image: url("../images/about/military/1st25th.png");
-    height:100px;
-    width: 80px;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: 50% 50%;
+.military__icons__unit {
+  background-image: url("../images/about/military/1st25th.png");
+  height: 100px;
+  width: 80px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-.military__icons__cib{
-    margin-left: 15px;
-    background-image: url("../images/about/military/cib.png");
-    height:100px;
-    width: 315px;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: 50% 50%;
+.military__icons__cib {
+  margin-left: 15px;
+  background-image: url("../images/about/military/cib.png");
+  height: 100px;
+  width: 315px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-.military__icons__purpleheart{
-    margin-left: 15px;
-    height:100px;
-    width: 50px;
-    background-image: url("../images/about/military/purpleheart.png");
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: 50% 50%;
+.military__icons__purpleheart {
+  margin-left: 15px;
+  height: 100px;
+  width: 50px;
+  background-image: url("../images/about/military/purpleheart.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
 }
-
-
-
